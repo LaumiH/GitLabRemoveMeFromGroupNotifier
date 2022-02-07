@@ -7,7 +7,9 @@ The prank has *non-destructive effects* on the projects in the GitLab group and 
 - Create a merge request with the title "LaumiH was here! Please remove me from the Unwanted group!"
 
 # Usage - for the affected
-First, let me describe how you can delete the created branches and merge requests in an automated way. You need to have `Python3` and the modules `argparse` and `python-gitlab` installed. Then simply execute `python3 de-prank.py -group <group> -name <name>`. Replace `<group>` with the name of the top-level GitLab group the user wants to be removed from. Replace `<name>` with the user's name that they added in the "... was here" messages. That's it.
+First, let me describe how you can delete the created branches and merge requests in an automated way. 
+Please follow the steps described in [Getting Started](#get_started) below, so install the stuff and make sure you have the `host` and `access_token` files along the downloaded `de-prank.py` file. You can create a GitLab access token as described [here](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html).
+Then simply execute `python3 de-prank.py -group <group> -name <name>`. Replace `<group>` with the name of the top-level GitLab group the user wants to be removed from. Replace `<name>` with the user's name that they added in the "... was here" messages. That's it.
 
 *Remember to remove the user from the group after all :)*
 
@@ -16,7 +18,7 @@ You can of course also contact the prankster and ask for their help.
 # Usage
 If you are in a similar situation like me, you might consider playing this simple and *non-desctructive prank* on the group's admins that would not listen to you. 
 
-## Getting started
+## <a name="get_started"></a> Getting started
 Execute the following steps to get started:
 - Install `Python3` and the modules `argparse` and `python-gitlab`
 - Download prank.py, de-prank.py and I_was_here.md to a directory, say `dir`
