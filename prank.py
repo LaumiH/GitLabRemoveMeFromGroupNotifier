@@ -79,7 +79,7 @@ for project in group.projects.list(include_subgroups=True):
     #create the merge request
     mr = manageable_project.mergerequests.create({'source_branch': branch,
                                                 'target_branch': main_or_master,
-                                                'title': name+' was here! Please remove me from the '+group+' group!'})
+                                                'title': name+' was here! Please remove me from the '+group.name+' group!'})
     created += 1
 
 print(f'{created} branches and merge requests were created')
