@@ -1,3 +1,6 @@
+host
+access_token
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -15,7 +18,7 @@ downloads/
 eggs/
 .eggs/
 lib/
-lib64/
+l4/
 parts/
 sdist/
 var/
