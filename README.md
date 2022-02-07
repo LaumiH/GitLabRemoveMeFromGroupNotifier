@@ -2,7 +2,7 @@
 This project is a prank I wrote for work. I asked to get removed from a GitLab group multiple times, and after a year I wanted to emphasize my wish in a non-destructive way.
 
 The prank has *non-destructive effects* on the projects in the GitLab group and sub-groups. It only creates a branch and a merge request. If your name was LaumiH and the group's name was Unwanted, the following would happen:
-- Create a branch named "LaumiH_was_here"
+- Create a branch named "LaumiH_was_here" from main or master (if there is no such branch, the script does nothing in this project)
 - Add a Markdown file "LaumiH_was_here.md" with the contents you specify (ideally a plea for removal from the group)
 - Create a merge request with the title "LaumiH was here! Please remove me from the Unwanted group!"
 
