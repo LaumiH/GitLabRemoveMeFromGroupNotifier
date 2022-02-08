@@ -35,3 +35,8 @@ Please also try out the automated deletion of the created branches and merge req
 
 ## Showtime
 When you are absolutely sure that you don't destroy anything for good, it's time for the real prank. Simply type `python3 prank.py -group <group> -name <name>`, replacing `<group>` with the name of the GitLab group you want to be removed from, and `<name>` with the name you want to see in the "... was here" message. Have fun :)
+
+# Sidenote
+I wrote this project not out of spite, but to raise awareness. The group I wanted to be removed from belonged to my former project, which is located at a completely different part of the company, and not under my current employer. So I basically had (modifying!) access to a project from another company. 
+
+By adding branches and merge requests, nothing is deleted or modified in a malicious way. CI (or, worse, CD) pipelines, if correctly configured, also must never pick up randomly named branches. It is possible that some embarassing situations come up, e.g., with project partner companies and the like. This is entirely among the intended effects this prank is designed to have.
